@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.web.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/web-project/3">
+            <name>PerpustakaanOnline</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <web-module-libraries>
+                <library dirs="200">
+                    <file>${file.reference.jstl.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mysql-connector-java-5.1.18-bin.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.standard.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.joda-time-1.5.2.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-3.10-FINAL-20140208.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-examples-3.10-FINAL-20140208.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-excelant-3.10-FINAL-20140208.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-ooxml-3.10-FINAL-20140208.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-ooxml-schemas-3.10-FINAL-20140208.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-scratchpad-3.10-FINAL-20140208.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.opencsv-2.3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xmlbeans-qname.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xmlpublic.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.dom4j-1.6.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xbean.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xbean_xpath.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-1.4.8.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+            </web-module-libraries>
+            <web-module-additional-libraries/>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <libraries xmlns="http://www.netbeans.org/ns/ant-project-libraries/1">
+            <definitions>.\lib\nblibraries.properties</definitions>
+        </libraries>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>AdminBook</word>
+            <word>AdminBookDelete</word>
+            <word>AdminBookEdit</word>
+            <word>AdminBookFilterByCategory</word>
+            <word>AdminBookFilterByYear</word>
+            <word>AdminBookSave</word>
+            <word>AdminCategory</word>
+            <word>AdminCategoryDelete</word>
+            <word>AdminCategoryEdit</word>
+            <word>AdminCategorySave</word>
+            <word>AdminGenerateReport</word>
+            <word>AdminNewsUpdate</word>
+            <word>AdminNewsUpdateDelete</word>
+            <word>AdminNewsUpdateEdit</word>
+            <word>AdminNewsUpdateSave</word>
+            <word>AdminReport</word>
+            <word>AdminTransaction</word>
+            <word>AdminTransactionApply</word>
+            <word>AdminTransactionByBook</word>
+            <word>AdminTransactionByMember</word>
+            <word>AdminTransactionDelete</word>
+            <word>AdminUserMan</word>
+            <word>AdminUserManAdminDelete</word>
+            <word>AdminUserManAdminEdit</word>
+            <word>AdminUserManAdminSave</word>
+            <word>AdminUserManDelete</word>
+            <word>AdminUserManEdit</word>
+            <word>AdminUserManReset</word>
+            <word>AdminUserManSave</word>
+            <word>CategoryList</word>
+            <word>HomeAdmin</word>
+            <word>HomeMember</word>
+            <word>LoginAdmin</word>
+            <word>LoginMember</word>
+            <word>MemberBookStore</word>
+            <word>MemberBookStoreFilterByCategory</word>
+            <word>MemberBookStoreFilterByYear</word>
+            <word>MemberBookStorePinjam</word>
+            <word>MemberList</word>
+            <word>MemberNewsUpdate</word>
+            <word>MemberProfile</word>
+            <word>MemberProfileEdit</word>
+            <word>MemberProfileSave</word>
+            <word>MemberTransaction</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>

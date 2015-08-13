@@ -1,0 +1,12 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+    font-family:"Luxi Mono Regular";
+    src: url('luximr.eot');
+    src:url("luximr.eot?#iefix") format("embedded-opentype"),
+        url("luximr.woff") format("woff"),
+        url("luximr.ttf") format("truetype"),
+        url("luximr.svg#LuxiMono") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+/*font-family: 'Luxi Mono Regular';*/
