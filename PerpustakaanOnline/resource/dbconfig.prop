@@ -2,5 +2,5 @@
 
 database = perpusweb
 user = root
-password = root
+password = 
 url = jdbc:mysql://localhost:3306/perpusweb

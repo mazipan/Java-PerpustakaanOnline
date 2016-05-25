@@ -44,10 +44,11 @@ public class ConnectionMySQL {
                  */
                 dataSource.setUrl("jdbc:mysql://localhost:3306/perpusweb");
                 dataSource.setUser("root");
-                dataSource.setPassword("root");
+                dataSource.setPassword("");
 
                 connection = dataSource.getConnection();
             } catch (SQLException e) {
+                e.printStackTrace();
                 System.out.println("Database connection Error " + e.getMessage());
             }
 
